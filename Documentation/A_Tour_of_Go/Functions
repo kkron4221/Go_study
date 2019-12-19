@@ -1,0 +1,21 @@
+package main
+
+import (
+    "fmt"
+    "reflect"
+)
+
+func add(x, y int) int {
+// func add(x int, y int) int{
+    
+    ans := x + y
+    return ans
+}
+
+func main(){
+    // I want to know add's type 
+    // fmt.Println(add(42, 13))
+    a := add(42, 13)
+    fmt.Println(reflect.TypeOf(a))
+    fmt.Println(a)
+}
