@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+// ocure error
+// x := 1
+
+func main(){
+    var y int = 1
+    z := 0
+
+    fmt.Println(y, z)
+}
