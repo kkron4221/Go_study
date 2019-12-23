@@ -1,0 +1,10 @@
+package main
+import "fmt"
+func main(){
+    i := 24
+    // Output "(%T) 24"
+    fmt.Println("(%T)", i)
+    
+    // Output "(int)"
+    fmt.Printf("\n(%T)", i)
+}
