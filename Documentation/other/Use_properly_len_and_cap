@@ -1,0 +1,10 @@
+package main
+import "fmt"
+func main(){
+    c := make(chan int, 10)
+    
+    // not include nai, so return 0
+    fmt.Println("len", len(c))
+    // include nai, so return 10
+    fmt.Println("cap",cap(c))
+}
