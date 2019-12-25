@@ -1,0 +1,21 @@
+package main
+
+import "fmt"
+
+func main(){
+    var i interface{} = "hello"
+    var j interface{} = 4.2
+    
+    s := i.(string)
+    fmt.Println(s)
+    
+    s, ok := i.(string)
+    fmt.Println(s, ok)
+    
+    f = j.(float64)
+    fmt.Println(f)
+    
+    f, ok := j.(float64)
+    fmt.Println(f, ok)
+    
+}
